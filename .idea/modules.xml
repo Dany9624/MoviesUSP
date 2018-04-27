@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MoviesApp.iml" filepath="$PROJECT_DIR$/MoviesApp.iml" />
+      <module fileurl="file://D:\University\android\MoviesUSP\MoviesApp.iml" filepath="D:\University\android\MoviesUSP\MoviesApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MoviesUSP.iml" filepath="$PROJECT_DIR$/MoviesUSP.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\University\android\MoviesUSP\app\app.iml" filepath="D:\University\android\MoviesUSP\app\app.iml" />
     </modules>
   </component>
 </project>

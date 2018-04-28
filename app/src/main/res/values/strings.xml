@@ -1,3 +1,48 @@
 <resources>
-    <string name="app_name">MoviesApp</string>
+    <string name="app_name">Movies</string>
+
+    <string name="title_movies">Movies</string>
+    <string name="title_movie">Movie</string>
+    <string name="title_add_movie">Add movie</string>
+    <string name="title_genres">Genres</string>
+
+    <string name="menu_search_by_rating">Search by rating</string>
+    <string name="menu_search_by_year">Search by year</string>
+    <string name="menu_search_by_genre">Search by genre</string>
+
+    <string name="name">Name: %s</string>
+    <string name="actors">Actors: %s</string>
+    <string name="director">Director: %s</string>
+    <string name="year">Year: %d</string>
+    <string name="genre">Genre: %s</string>
+    <string name="rating">Rating: %d</string>
+
+    <string name="name_add">Name: </string>
+    <string name="actors_add">Actors: </string>
+    <string name="director_add">Director: </string>
+    <string name="year_add">Year: </string>
+    <string name="genre_add">Genre: </string>
+    <string name="rating_add">Rating: </string>
+    <string name="select">(Select)</string>
+
+    <string-array name="arr_genres">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Drama</item>
+        <item>Fantasy</item>
+        <item>Historical</item>
+        <item>Horror</item>
+        <item>Romance</item>
+        <item>Thriller</item>
+        <item>Western</item>
+    </string-array>
+
+    <string name="empty_fields">Please fill all empty fields!</string>
+    <string name="ok">Ok</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

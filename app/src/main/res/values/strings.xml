@@ -10,6 +10,8 @@
     <string name="menu_search_by_year">Search by year</string>
     <string name="menu_search_by_genre">Search by genre</string>
 
+    <string name="empty">List is empty...</string>
+
     <string name="name">Name: %s</string>
     <string name="actors">Actors: %s</string>
     <string name="director">Director: %s</string>
@@ -24,6 +26,7 @@
     <string name="genre_add">Genre: </string>
     <string name="rating_add">Rating: </string>
     <string name="select">(Select)</string>
+    <string name="deleteMovie">Would you like to delete this movie?</string>
 
     <string-array name="arr_genres">
         <item>Action</item>
@@ -41,8 +44,11 @@
 
     <string name="empty_fields">Please fill all empty fields!</string>
     <string name="ok">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

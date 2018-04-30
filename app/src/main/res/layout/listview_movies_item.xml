@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-   android:padding="10dp">
+    android:padding="10dp">
     <TextView
         android:id="@+id/textViewName"
         android:layout_width="match_parent"
@@ -47,6 +47,5 @@
         android:numStars="5"
         android:stepSize="1"
         android:isIndicator="true"
-        android:layout_gravity="end"
-        android:progressTint="@color/yellow"/>
+        android:layout_gravity="end"/>
 </LinearLayout>

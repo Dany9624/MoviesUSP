@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dany.moviesapp.MoviesActivity"
+    tools:context="com.example.dany.moviesapp.view.MoviesActivity"
     android:background="@drawable/imageedit_2_3756006427">
 
     <RelativeLayout

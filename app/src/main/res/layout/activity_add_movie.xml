@@ -6,9 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.dany.movies.view.AddMovieActivity">
     <RelativeLayout
+        android:id="@+id/relativeHeader"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/colorAccent">
+        android:background="#9F2E2A">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -17,16 +18,25 @@
             android:textSize="24sp"
             android:textColor="@android:color/white" />
     </RelativeLayout>
-    <ScrollView
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:src="@mipmap/edit"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/relativeHeader"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="315dp"
         android:fillViewport="true">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -38,7 +48,7 @@
                     android:layout_weight="1"
                     android:text="@string/name_add"
                     android:textSize="18sp"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:gravity="start|center_vertical"
                     android:paddingStart="10dp"/>
                 <EditText
@@ -47,7 +57,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:textSize="18sp"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/white"
+                    android:textCursorDrawable="@android:color/white"
+                    android:backgroundTint="@android:color/darker_gray"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -60,7 +72,7 @@
                     android:layout_weight="1"
                     android:text="@string/actors_add"
                     android:textSize="18sp"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:gravity="start|center_vertical"
                     android:paddingStart="10dp"/>
                 <EditText
@@ -69,7 +81,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:textSize="18sp"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/white"
+                    android:textCursorDrawable="@android:color/white"
+                    android:backgroundTint="@android:color/darker_gray" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -82,7 +96,7 @@
                     android:layout_weight="1"
                     android:text="@string/director_add"
                     android:textSize="18sp"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:gravity="start|center_vertical"
                     android:paddingStart="10dp"/>
                 <EditText
@@ -91,7 +105,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:textSize="18sp"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/white"
+                    android:textCursorDrawable="@android:color/white"
+                    android:backgroundTint="@android:color/darker_gray" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -104,7 +120,7 @@
                     android:layout_weight="1"
                     android:text="@string/year_add"
                     android:textSize="18sp"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:gravity="start|center_vertical"
                     android:paddingStart="10dp"/>
                 <EditText
@@ -113,7 +129,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:textSize="18sp"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textCursorDrawable="@android:color/white"
+                    android:backgroundTint="@android:color/darker_gray"
                     android:inputType="number"/>
             </LinearLayout>
             <LinearLayout
@@ -127,7 +145,7 @@
                     android:layout_weight="1"
                     android:text="@string/genre_add"
                     android:textSize="18sp"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:gravity="start|center_vertical"
                     android:paddingStart="10dp"/>
                 <TextView
@@ -137,8 +155,8 @@
                     android:layout_weight="2"
                     android:text="@string/select"
                     android:textSize="18sp"
-                    android:textColor="@android:color/black"
-                    android:gravity="center"/>
+                    android:textColor="@android:color/white"
+                    android:gravity="start"/>
             </LinearLayout>
             <RatingBar
                 android:id="@+id/ratingBar"
@@ -146,7 +164,8 @@
                 android:layout_height="wrap_content"
                 android:numStars="5"
                 android:stepSize="1"
-                android:layout_gravity="end"/>
+                android:layout_gravity="center"
+                android:progressTint="@color/yellow"/>
         </LinearLayout>
     </ScrollView>
     <android.support.design.widget.FloatingActionButton
@@ -154,7 +173,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:backgroundTint="@color/colorAccent"
+        app:backgroundTint="@color/yellow"
         android:elevation="6dp"
         app:srcCompat="@mipmap/ic_done_white_24dp"
         android:layout_alignParentBottom="true"

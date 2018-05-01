@@ -1,4 +1,4 @@
-package com.example.dany.moviesapp.viewModel;
+package com.example.dany.moviesapp.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dany.moviesapp.view.MoviesActivity"
+    tools:context="com.example.dany.movies.view.MoviesActivity"
     android:background="@drawable/imageedit_2_3756006427">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/colorAccent">
+        android:background="@color/red">
         <ImageView
             android:id="@+id/imageViewRefresh"
             android:layout_width="30dp"
@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:backgroundTint="@color/colorAccent"
+        app:backgroundTint="@color/red"
         android:elevation="6dp"
         app:srcCompat="@drawable/ic_add_black_24dp"
         android:tint="@android:color/white"
@@ -58,6 +58,15 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:text="@string/empty"
+        android:textColor="@android:color/black"/>
 
     <FrameLayout
         android:id="@+id/frame_container"

@@ -47,5 +47,6 @@
         android:numStars="5"
         android:stepSize="1"
         android:isIndicator="true"
-        android:layout_gravity="end"/>
+        android:layout_gravity="end"
+        android:progressTint="@color/yellow"/>
 </LinearLayout>

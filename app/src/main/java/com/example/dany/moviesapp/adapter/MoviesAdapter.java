@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.example.dany.moviesapp.R;
 import com.example.dany.moviesapp.model.Movie;
-import com.example.dany.moviesapp.viewModel.MovieDetailsActivity;
+import com.example.dany.moviesapp.view.MovieDetailsActivity;
 
 import java.util.List;
 
